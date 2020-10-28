@@ -25,7 +25,7 @@ client.on("guildMemberRemove", (member) => {
 
   byeChannel.send(`<@${deleteUser.id}> ${byeChannelComment}\n`);
 });
-
+ 
 client.on('message', (message) => {
   if(message.author.bot) return;
 
