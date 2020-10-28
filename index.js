@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const token = process.env.token;
 const welcomeChannelName = "👐welcome";
 const byeChannelName = "👋bye";
-const welcomeChannelComment = "Welcome to 707th SMG. Fill out the report at #:pencil:verify https://www.youtube.com/watch?v=mTwV1_ZkLx8&t=13s";
+const welcomeChannelComment = "Welcome to 707th SMG. Fill out the report at #verify https://www.youtube.com/watch?v=mTwV1_ZkLx8&t=13s";
 const byeChannelComment = "Good bye.";
 
 client.on('ready', () => {
